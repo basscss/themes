@@ -5,18 +5,13 @@ import Head from 'basscss.github.io/components/Head.jsx'
 import Container from 'basscss.github.io/components/Container.jsx'
 import Header from 'basscss.github.io/components/PageHeader.jsx'
 import Footer from 'basscss.github.io/components/Footer.jsx'
+import ga from 'basscss.github.io/data/ga'
 import { CarbonAd } from 'blk'
 import Index from './Index.jsx'
 
 class Root extends React.Component {
 
   render () {
-    //<head>
-    //      <meta charSet='utf-8' />
-    //      <title>{this.props.title}</title>
-    //      <meta name='viewport' content='width=device-width,initial-scale=1' />
-    //      <style dangerouslySetInnerHTML={{ __html: css }} />
-    //</head>
     return (
       <html>
         <Head {...this.props} />
@@ -29,6 +24,7 @@ class Root extends React.Component {
             <Index {...this.props} />
           </Container>
           <Footer {...this.props} wide />
+          <script dangerouslySetInnerHTML={{ __html: ga }} />
         </body>
       </html>
     )
