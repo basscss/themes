@@ -1,0 +1,116 @@
+/*
+ * Basscraft
+ *
+ * Basscss theme
+ *
+ */
+
+
+@import 'basscss-base-reset';
+@import 'basscss-base-forms';
+@import 'basscss-base-buttons';
+@import 'basscss-base-tables';
+@import 'basscss-base-typography';
+
+@import 'basscss-utility-layout';
+@import 'basscss-utility-typography';
+@import 'basscss-utility-headings';
+@import 'basscss-white-space';
+@import 'basscss-responsive-states';
+@import 'basscss-positions';
+@import 'basscss-button-sizes';
+
+@import 'basscss-grid';
+@import 'flex-object';
+
+@import 'basscss-color-base';
+@import 'basscss-color-forms';
+@import 'basscss-input-range';
+@import 'basscss-color-tables';
+
+@import 'basscss-button-outline';
+@import 'basscss-button-transparent';
+@import 'basscss-background-images';
+@import 'basscss-borders';
+@import 'basscss-colors';
+
+@import 'basscss-defaults';
+
+
+.serif { font-family: var(--heading-font-family) }
+.sans  { font-family: var(--font-family) }
+
+.fuchsia a:not(.button) { color: var(--fuchsia) }
+.maroon a:not(.button) { color: var(--maroon) }
+.blue a:not(.button) { color: var(--blue) }
+.navy a:not(.button) { color: var(--navy) }
+.aqua a:not(.button) { color: var(--aqua) }
+.green a:not(.button) { color: var(--green) }
+.olive a:not(.button) { color: var(--olive) }
+.lime a:not(.button) { color: var(--lime) }
+.teal a:not(.button) { color: var(--teal) }
+.yellow a:not(.button) { color: var(--yellow) }
+.orange a:not(.button) { color: var(--orange) }
+.red a:not(.button) { color: var(--red) }
+.purple a:not(.button) { color: var(--purple) }
+.black a:not(.button) { color: var(--black) }
+.gray a:not(.button) { color: var(--gray) }
+
+.fuchsia .button:not(.button-outline):not(.button-transparent) { background-color: var(--fuchsia) }
+.maroon .button:not(.button-outline):not(.button-transparent) { background-color: var(--maroon) }
+.blue .button:not(.button-outline):not(.button-transparent) { background-color: var(--blue) }
+.navy .button:not(.button-outline):not(.button-transparent) { background-color: var(--navy) }
+.aqua .button:not(.button-outline):not(.button-transparent) { background-color: var(--aqua) }
+.green .button:not(.button-outline):not(.button-transparent) { background-color: var(--green) }
+.olive .button:not(.button-outline):not(.button-transparent) { background-color: var(--olive) }
+.lime .button:not(.button-outline):not(.button-transparent) { background-color: var(--lime) }
+.teal .button:not(.button-outline):not(.button-transparent) { background-color: var(--teal) }
+.yellow .button:not(.button-outline):not(.button-transparent) { background-color: var(--yellow) }
+.orange .button:not(.button-outline):not(.button-transparent) { background-color: var(--orange) }
+.red .button:not(.button-outline):not(.button-transparent) { background-color: var(--red) }
+.purple .button:not(.button-outline):not(.button-transparent) { background-color: var(--purple) }
+.black .button:not(.button-outline):not(.button-transparent) { background-color: var(--black) }
+.gray .button:not(.button-outline):not(.button-transparent) { background-color: var(--gray) }
+
+
+/* Needs supporting variables */
+.field-light {
+  border-color: var(--darken-2);
+}
+.field-light:focus {
+  border-color: var(--field-focus-color);
+  box-shadow: none;
+}
+
+/*
+.checkbox-light,
+.radio-light {}
+*/
+
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+
+
+:root {
+
+  --font-family: 'Roboto', Helvetica, sans-serif;
+  --heading-font-family: 'Merriweather', Georgia, serif;
+
+  --h1: 2.25rem;
+  --h2: 1.75rem;
+  --h3: 1.5rem;
+  --h4: 1.125rem;
+  --h5: 1rem;
+  --h6: .875rem;
+
+
+  --button-font-size: var(--h6);
+  --border-width: 2px;
+  --border-color: inherit;
+
+  --field-focus-color: inherit;
+
+}
+

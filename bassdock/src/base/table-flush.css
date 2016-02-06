@@ -1,0 +1,15 @@
+
+.table-flush th {
+  border-bottom-width: 2px;
+}
+
+.table-flush th:first-child,
+.table-flush td:first-child {
+  padding-left: 0;
+}
+
+.table-flush th:last-child,
+.table-flush td:last-child {
+  padding-right: 0;
+}
+

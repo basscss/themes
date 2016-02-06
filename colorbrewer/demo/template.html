@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%= obj.name %></title>
+  <meta name="author" content="<%= obj.author %>">
+  <meta name="description" content="<%= obj.description %>">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://d2v52k3cl9vedd.cloudfront.net/bassdock/1.2.1/bassdock.min.css">
+  <link rel="stylesheet" href="demo/demo.css">
+</head>
+<body class="px2">
+
+  <header class="mb2 border-bottom">
+    <div class="flex flex-center flex-wrap mxn1 py3">
+      <div class="flex-auto px1">
+        <h1 class="m0">
+          <%= obj.name %>
+        </h1>
+        <p class="m0">
+          Color palettes based on D3 ColorBrewer for
+          <a href="//basscss.com">Basscss</a>.
+        </p>
+      </div>
+      <a href="<%= obj.homepage %>" class="button button-small ml1 mr1 button-link blue">Github</a>
+      <a href="//npmjs.com/package/<%= obj.name %>" class="button button-small ml1 mr1 button-link blue">NPM</a>
+    </div>
+  </header>
+
+  <% obj.palettes.forEach(function(palette) { %>
+    <section id="<%= palette.name %>">
+      <h2 class="h3">
+        <a href="#<%= palette.name %>">
+          <%= palette.name %>
+        </a>
+      </h2>
+      <div class="flex flex-wrap">
+        <% palette.colors.forEach(function(color) { %>
+          <div class="flex-auto mb1">
+            <div class="px2 py4 <%= palette.name + '-bg-' + color.name %>"></div>
+            <div class="h5 bold"> <%= color.name %> </div>
+            <div class="h6"> <%= color.hex %> </div>
+          </div>
+        <% }) %>
+      </div>
+    </section>
+  <% }) %>
+
+  <footer class="mt3 py2 border-top">
+    <p class="h5">
+      Colors from Cynthia Brewer’s <a href="http://colorbrewer2.org/">ColorBrewer</a> (D3).
+      Generated with <a href="//npmjs.com/package/palatable">palatable</a>.
+    </p>
+    <div class="flex flex-baseline flex-wrap mxn1">
+      <a href="//jxnblk.com/basscss-colorbrewer"
+        class="button button-small ml1 mr1 button-link blue">
+        <%= name %>
+      </a>
+      <div class="h6 bold">v<%= version %></div>
+      <div class="flex-auto"></div>
+      <a href="<%= homepage %>"
+        class="button button-small ml1 mr1 button-link blue">
+        Github
+      </a>
+      <a href="//npmjs.com/package/<%= name %>"
+        class="button button-small ml1 mr1 button-link blue">
+        NPM
+      </a>
+
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+/*
+
+  RdPu
+
+*/
+
+.seashell { color: var(--seashell); }
+.mistyrose { color: var(--mistyrose); }
+.pink { color: var(--pink); }
+.lightpink { color: var(--lightpink); }
+.hotpink { color: var(--hotpink); }
+.deeppink { color: var(--deeppink); }
+.mediumvioletred { color: var(--mediumvioletred); }
+.purple { color: var(--purple); }
+.indigo { color: var(--indigo); }
+
+.bg-seashell { background-color: var(--seashell); }
+.bg-mistyrose { background-color: var(--mistyrose); }
+.bg-pink { background-color: var(--pink); }
+.bg-lightpink { background-color: var(--lightpink); }
+.bg-hotpink { background-color: var(--hotpink); }
+.bg-deeppink { background-color: var(--deeppink); }
+.bg-mediumvioletred { background-color: var(--mediumvioletred); }
+.bg-purple { background-color: var(--purple); }
+.bg-indigo { background-color: var(--indigo); }
+
+.border-seashell { border-color: var(--seashell); }
+.border-mistyrose { border-color: var(--mistyrose); }
+.border-pink { border-color: var(--pink); }
+.border-lightpink { border-color: var(--lightpink); }
+.border-hotpink { border-color: var(--hotpink); }
+.border-deeppink { border-color: var(--deeppink); }
+.border-mediumvioletred { border-color: var(--mediumvioletred); }
+.border-purple { border-color: var(--purple); }
+.border-indigo { border-color: var(--indigo); }
+
+:root {
+  --seashell: #fff7f3;
+  --mistyrose: #fde0dd;
+  --pink: #fcc5c0;
+  --lightpink: #fa9fb5;
+  --hotpink: #f768a1;
+  --deeppink: #dd3497;
+  --mediumvioletred: #ae017e;
+  --purple: #7a0177;
+  --indigo: #49006a;
+}

@@ -1,0 +1,43 @@
+/*
+
+  Accent
+
+*/
+
+.darkseagreen { color: var(--darkseagreen); }
+.thistle { color: var(--thistle); }
+.burlywood { color: var(--burlywood); }
+.khaki { color: var(--khaki); }
+.royalblue { color: var(--royalblue); }
+.deeppink { color: var(--deeppink); }
+.chocolate { color: var(--chocolate); }
+.dimgray { color: var(--dimgray); }
+
+.bg-darkseagreen { background-color: var(--darkseagreen); }
+.bg-thistle { background-color: var(--thistle); }
+.bg-burlywood { background-color: var(--burlywood); }
+.bg-khaki { background-color: var(--khaki); }
+.bg-royalblue { background-color: var(--royalblue); }
+.bg-deeppink { background-color: var(--deeppink); }
+.bg-chocolate { background-color: var(--chocolate); }
+.bg-dimgray { background-color: var(--dimgray); }
+
+.border-darkseagreen { border-color: var(--darkseagreen); }
+.border-thistle { border-color: var(--thistle); }
+.border-burlywood { border-color: var(--burlywood); }
+.border-khaki { border-color: var(--khaki); }
+.border-royalblue { border-color: var(--royalblue); }
+.border-deeppink { border-color: var(--deeppink); }
+.border-chocolate { border-color: var(--chocolate); }
+.border-dimgray { border-color: var(--dimgray); }
+
+:root {
+  --darkseagreen: #7fc97f;
+  --thistle: #beaed4;
+  --burlywood: #fdc086;
+  --khaki: #ffff99;
+  --royalblue: #386cb0;
+  --deeppink: #f0027f;
+  --chocolate: #bf5b17;
+  --dimgray: #666666;
+}

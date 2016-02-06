@@ -1,0 +1,7 @@
+
+.h0 { font-size: 3em; line-height: 1 }
+
+@media (--breakpoint-md) {
+  .h0 { font-size: 8vw; }
+}
+

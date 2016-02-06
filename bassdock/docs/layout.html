@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%= title %></title>
+  <meta title="description" content="<%= description %>">
+  <meta title="author" content="<%= author %>">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/bassdock.min.css">
+</head>
+<body class="container px2">
+
+  <header class="py3">
+    <h1 class="h1 h1-responsive caps m0"><%= name %></h1>
+    <p class="h3"><%= description %></p>
+    <a href="<%= cdn %>" class="block py1 overflow-auto"><code><%= cdn %></code></a>
+  </header>
+
+  <hr class="b2 border-aqua">
+
+  <%= content %>
+
+  <hr class="b2 border-aqua">
+
+  <footer class="flex flex-baseline flex-wrap py3">
+    <a href="//github.com/jxnblk/bassdock" class="button button-link">
+      Github
+    </a>
+    <div class="flex-auto"></div>
+    <p class="m0">Made by <a href="//jxnblk.com" class="button button-link">Jxnblk</a>.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+/*
+
+  YlOrRd
+
+*/
+
+.lemonchiffon { color: var(--lemonchiffon); }
+.khaki { color: var(--khaki); }
+.khaki-2 { color: var(--khaki-2); }
+.orange { color: var(--orange); }
+.darkorange { color: var(--darkorange); }
+.orangered { color: var(--orangered); }
+.red { color: var(--red); }
+.firebrick { color: var(--firebrick); }
+.maroon { color: var(--maroon); }
+
+.bg-lemonchiffon { background-color: var(--lemonchiffon); }
+.bg-khaki { background-color: var(--khaki); }
+.bg-khaki-2 { background-color: var(--khaki-2); }
+.bg-orange { background-color: var(--orange); }
+.bg-darkorange { background-color: var(--darkorange); }
+.bg-orangered { background-color: var(--orangered); }
+.bg-red { background-color: var(--red); }
+.bg-firebrick { background-color: var(--firebrick); }
+.bg-maroon { background-color: var(--maroon); }
+
+.border-lemonchiffon { border-color: var(--lemonchiffon); }
+.border-khaki { border-color: var(--khaki); }
+.border-khaki-2 { border-color: var(--khaki-2); }
+.border-orange { border-color: var(--orange); }
+.border-darkorange { border-color: var(--darkorange); }
+.border-orangered { border-color: var(--orangered); }
+.border-red { border-color: var(--red); }
+.border-firebrick { border-color: var(--firebrick); }
+.border-maroon { border-color: var(--maroon); }
+
+:root {
+  --lemonchiffon: #ffffcc;
+  --khaki: #ffeda0;
+  --khaki-2: #fed976;
+  --orange: #feb24c;
+  --darkorange: #fd8d3c;
+  --orangered: #fc4e2a;
+  --red: #e31a1c;
+  --firebrick: #bd0026;
+  --maroon: #800026;
+}

@@ -1,0 +1,77 @@
+/* Basscss Button Blue Outline */
+
+button { color: inherit }
+
+.button-outline {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  border: var(--border-width-2) solid currentcolor;
+  transition-duration: .1s;
+  transition-timing-function: ease-out;
+  transition-property: border, box-shadow, background-color;
+}
+
+/*
+.button-outline.is-active:before, 
+*/
+.button-outline:hover:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: currentcolor;
+}
+.button-outline:hover:before {
+  opacity: 0.25;
+}
+.button-outline.is-active {
+  border-color: transparent;
+}
+/*
+.button-outline.is-active:before {
+  opacity: 0;
+}
+*/
+
+/*
+.button-outline.is-active {
+  color: white;
+  background-color: var(--dark-gray);
+  border-color: var(--dark-gray);
+}
+*/
+
+
+.button-outline:active {
+  box-shadow: inset 0 3px 3px 0 rgba(#000,.25);
+}
+
+.button-outline:focus {
+  outline: none;
+  box-shadow: 0 0 2px; 
+}
+
+.button-outline:disabled,
+.button-outline.is-disabled {
+  background-color: transparent;
+  opacity: .5;
+}
+
+
+:root {
+  --border-radius: 3px;
+  --border-width: 1px;
+  --border-width-2: 2px;
+  --darken-2: rgba(#000, .125);
+  --darken-3: rgba(#000, .25);
+  --lighten-3: rgba(#fff, .125);
+}
+

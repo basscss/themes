@@ -1,0 +1,9 @@
+
+.dark-gray { color: var(--dark-gray) }
+.bg-dark-gray { background-color: var(--dark-gray) }
+
+.bg-darken-1 { background-color: var(--darken-1) }
+.bg-darken-2 { background-color: var(--darken-2) }
+.bg-darken-3 { background-color: var(--darken-3) }
+.bg-darken-4 { background-color: var(--darken-4) }
+

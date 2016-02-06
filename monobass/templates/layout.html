@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%= title %></title>
+  <meta title="description" content="<%= description %>">
+  <meta title="author" content="<%= author %>">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/monobass.min.css">
+</head>
+<body>
+
+  <header class="container px2 mt4 mb4">
+    <div class="border-bottom">
+      <div class="flex flex-wrap flex-center py2 mxn2">
+        <div class="flex-auto px2">
+          <h1 class="h0 h0-responsive m0">
+            <%= name %>
+            <small class="h5 caps">v<%= version %></small>
+            <small class="h5 caps">&bull;</small>
+            <small class="h5 caps"><%= Humanize.filesize(stats.gzipSize) %></small>
+          </h1>
+          <p class="m0"><%= description %></p>
+        </div>
+        <a href="<%= cdn %>" class="button button-nav-light">CDN</a>
+        <a href="<%= github.href %>" class="button button-nav-light">Github</a>
+        <a href="<%= npm.href %>" class="button button-nav-light">NPM</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container px2">
+    <%= content %>
+  </div>
+
+  <section id="stats" class="container px2 py3 mt3">
+    <h2>Stats</h2>
+    <div class="h5 bold flex flex-wrap ">
+      <div class="flex-auto">
+        <div class="h1"><%= Humanize.filesize(stats.size) %></div>
+        <div>Size</div>
+      </div>
+      <div class="flex-auto">
+        <div class="h1"><%= Humanize.filesize(stats.gzipSize) %></div>
+        <div>Gzipped</div>
+      </div>
+      <div class="flex-auto">
+        <div class="h1"><%= Humanize.formatNumber(stats.selectors.length) %></div>
+        <div>Selectors</div>
+      </div>
+      <div class="flex-auto">
+        <div class="h1"><%= Humanize.formatNumber(stats.aggregates.declarations) %></div>
+        <div>Declarations</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container px2">
+    <%= footer %>
+  </div>
+
+</body>
+</html>

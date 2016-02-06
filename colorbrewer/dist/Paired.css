@@ -1,0 +1,59 @@
+/*
+
+  Paired
+
+*/
+
+.lightblue { color: var(--lightblue); }
+.steelblue { color: var(--steelblue); }
+.lightgreen { color: var(--lightgreen); }
+.forestgreen { color: var(--forestgreen); }
+.lightcoral { color: var(--lightcoral); }
+.red { color: var(--red); }
+.burlywood { color: var(--burlywood); }
+.darkorange { color: var(--darkorange); }
+.thistle { color: var(--thistle); }
+.rebeccapurple { color: var(--rebeccapurple); }
+.khaki { color: var(--khaki); }
+.sienna { color: var(--sienna); }
+
+.bg-lightblue { background-color: var(--lightblue); }
+.bg-steelblue { background-color: var(--steelblue); }
+.bg-lightgreen { background-color: var(--lightgreen); }
+.bg-forestgreen { background-color: var(--forestgreen); }
+.bg-lightcoral { background-color: var(--lightcoral); }
+.bg-red { background-color: var(--red); }
+.bg-burlywood { background-color: var(--burlywood); }
+.bg-darkorange { background-color: var(--darkorange); }
+.bg-thistle { background-color: var(--thistle); }
+.bg-rebeccapurple { background-color: var(--rebeccapurple); }
+.bg-khaki { background-color: var(--khaki); }
+.bg-sienna { background-color: var(--sienna); }
+
+.border-lightblue { border-color: var(--lightblue); }
+.border-steelblue { border-color: var(--steelblue); }
+.border-lightgreen { border-color: var(--lightgreen); }
+.border-forestgreen { border-color: var(--forestgreen); }
+.border-lightcoral { border-color: var(--lightcoral); }
+.border-red { border-color: var(--red); }
+.border-burlywood { border-color: var(--burlywood); }
+.border-darkorange { border-color: var(--darkorange); }
+.border-thistle { border-color: var(--thistle); }
+.border-rebeccapurple { border-color: var(--rebeccapurple); }
+.border-khaki { border-color: var(--khaki); }
+.border-sienna { border-color: var(--sienna); }
+
+:root {
+  --lightblue: #a6cee3;
+  --steelblue: #1f78b4;
+  --lightgreen: #b2df8a;
+  --forestgreen: #33a02c;
+  --lightcoral: #fb9a99;
+  --red: #e31a1c;
+  --burlywood: #fdbf6f;
+  --darkorange: #ff7f00;
+  --thistle: #cab2d6;
+  --rebeccapurple: #6a3d9a;
+  --khaki: #ffff99;
+  --sienna: #b15928;
+}

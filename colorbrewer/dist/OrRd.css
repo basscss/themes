@@ -1,0 +1,47 @@
+/*
+
+  OrRd
+
+*/
+
+.floralwhite { color: var(--floralwhite); }
+.blanchedalmond { color: var(--blanchedalmond); }
+.navajowhite { color: var(--navajowhite); }
+.sandybrown { color: var(--sandybrown); }
+.coral { color: var(--coral); }
+.tomato { color: var(--tomato); }
+.red { color: var(--red); }
+.firebrick { color: var(--firebrick); }
+.maroon { color: var(--maroon); }
+
+.bg-floralwhite { background-color: var(--floralwhite); }
+.bg-blanchedalmond { background-color: var(--blanchedalmond); }
+.bg-navajowhite { background-color: var(--navajowhite); }
+.bg-sandybrown { background-color: var(--sandybrown); }
+.bg-coral { background-color: var(--coral); }
+.bg-tomato { background-color: var(--tomato); }
+.bg-red { background-color: var(--red); }
+.bg-firebrick { background-color: var(--firebrick); }
+.bg-maroon { background-color: var(--maroon); }
+
+.border-floralwhite { border-color: var(--floralwhite); }
+.border-blanchedalmond { border-color: var(--blanchedalmond); }
+.border-navajowhite { border-color: var(--navajowhite); }
+.border-sandybrown { border-color: var(--sandybrown); }
+.border-coral { border-color: var(--coral); }
+.border-tomato { border-color: var(--tomato); }
+.border-red { border-color: var(--red); }
+.border-firebrick { border-color: var(--firebrick); }
+.border-maroon { border-color: var(--maroon); }
+
+:root {
+  --floralwhite: #fff7ec;
+  --blanchedalmond: #fee8c8;
+  --navajowhite: #fdd49e;
+  --sandybrown: #fdbb84;
+  --coral: #fc8d59;
+  --tomato: #ef6548;
+  --red: #d7301f;
+  --firebrick: #b30000;
+  --maroon: #7f0000;
+}

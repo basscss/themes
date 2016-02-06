@@ -1,0 +1,94 @@
+{
+  "name": "bassdock",
+  "version": "2.0.1",
+  "description": "Theme for Basscss documentation",
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "style": "src/bassdock.css",
+  "scripts": {
+    "css": "cssnext src/bassdock.css css/bassdock.css --no-color-rgba --no-rem --no-pseudo-elements",
+    "css:min": "cssnext src/bassdock.css css/bassdock.min.css -c --no-color-rgba --no-rem --no-pseudo-elements",
+    "watch:css": "cssnext src/bassdock.css css/bassdock.css -w --no-color-rgba --no-rem --no-pseudo-elements",
+    "watch:css:min": "cssnext src/bassdock.css css/bassdock.min.css -c -w --no-color-rgba --no-rem --no-pseudo-elements",
+    "docs": "node docs/build",
+    "watch:docs": "watch 'npm run docs' ./docs",
+    "s3": "node s3",
+    "release": "npm run css && npm run css:min && npm run s3 && npm run docs",
+    "serve": "http-server -p 8000",
+    "start": "npm run watch:docs & npm run watch:css & npm run watch:css:min & npm run serve"
+  },
+  "doctor_mark": {
+    "template": "docs/layout.html",
+    "stylesheets": [
+      "css/bassdock.css"
+    ],
+    "cdn": "//d2v52k3cl9vedd.cloudfront.net/bassdock/2.0.1/bassdock.min.css"
+  },
+  "dependencies": {
+    "basscss-background-images": "latest",
+    "basscss-base-buttons": "latest",
+    "basscss-base-forms": "latest",
+    "basscss-base-reset": "latest",
+    "basscss-base-tables": "latest",
+    "basscss-base-typography": "latest",
+    "basscss-button-blue": "latest",
+    "basscss-button-blue-outline": "latest",
+    "basscss-button-gray": "latest",
+    "basscss-button-light-gray": "latest",
+    "basscss-button-link": "latest",
+    "basscss-button-nav-dark": "latest",
+    "basscss-button-nav-light": "latest",
+    "basscss-button-nav-tab": "latest",
+    "basscss-button-outline": "latest",
+    "basscss-button-red": "latest",
+    "basscss-button-transparent": "^1.1.0",
+    "basscss-color-base": "latest",
+    "basscss-color-borders": "latest",
+    "basscss-color-buttons": "latest",
+    "basscss-color-forms": "^2.2.0",
+    "basscss-color-forms-dark": "latest",
+    "basscss-color-tables": "latest",
+    "basscss-colors": "latest",
+    "basscss-defaults": "latest",
+    "basscss-grid": "latest",
+    "basscss-highlight": "latest",
+    "basscss-input-range": "latest",
+    "basscss-positions": "latest",
+    "basscss-progress": "latest",
+    "basscss-table-object": "latest",
+    "basscss-ui-utility-button-sizes": "latest",
+    "basscss-ui-utility-disclosure-states": "latest",
+    "basscss-ui-utility-groups": "latest",
+    "basscss-utility-headings": "latest",
+    "basscss-utility-layout": "latest",
+    "basscss-utility-responsive-states": "latest",
+    "basscss-utility-typography": "latest",
+    "basscss-utility-white-space": "latest",
+    "flex-object": "latest"
+  },
+  "devDependencies": {
+    "colorable": "^1.0.5",
+    "colors.css": "^2.3.0",
+    "cssnext": "^1.2.1",
+    "cssstats": "^1.5.1",
+    "doctor-mark": "^1.1.0",
+    "filesize": "^3.1.2",
+    "http-server": "^0.8.0",
+    "lodash": "^3.6.0",
+    "s3": "^4.4.0",
+    "watch": "^0.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/bassdock.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss"
+  ],
+  "bugs": {
+    "url": "https://github.com/jxnblk/bassdock/issues"
+  },
+  "homepage": "https://github.com/jxnblk/bassdock"
+}

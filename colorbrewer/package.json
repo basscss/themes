@@ -1,0 +1,30 @@
+{
+  "name": "basscss-colorbrewer",
+  "version": "1.0.0",
+  "description": "Color palettes based on D3 ColorBrewer for Basscss",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "closest-color-keyword": "^1.1.0",
+    "color": "^0.8.0",
+    "color-diff": "^0.1.7",
+    "colorbrewer": "0.0.2",
+    "css-color-list": "0.0.1",
+    "lodash": "^3.5.0",
+    "palatable": "^1.0.1",
+    "postcss": "^4.0.6"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-colorbrewer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/basscss-colorbrewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-colorbrewer/issues"
+  }
+}

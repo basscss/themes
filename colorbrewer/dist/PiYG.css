@@ -1,0 +1,55 @@
+/*
+
+  PiYG
+
+*/
+
+.purple { color: var(--purple); }
+.mediumvioletred { color: var(--mediumvioletred); }
+.hotpink { color: var(--hotpink); }
+.thistle { color: var(--thistle); }
+.lavenderblush { color: var(--lavenderblush); }
+.whitesmoke { color: var(--whitesmoke); }
+.lightgoldenrodyellow { color: var(--lightgoldenrodyellow); }
+.lightgreen { color: var(--lightgreen); }
+.yellowgreen { color: var(--yellowgreen); }
+.forestgreen { color: var(--forestgreen); }
+.darkgreen { color: var(--darkgreen); }
+
+.bg-purple { background-color: var(--purple); }
+.bg-mediumvioletred { background-color: var(--mediumvioletred); }
+.bg-hotpink { background-color: var(--hotpink); }
+.bg-thistle { background-color: var(--thistle); }
+.bg-lavenderblush { background-color: var(--lavenderblush); }
+.bg-whitesmoke { background-color: var(--whitesmoke); }
+.bg-lightgoldenrodyellow { background-color: var(--lightgoldenrodyellow); }
+.bg-lightgreen { background-color: var(--lightgreen); }
+.bg-yellowgreen { background-color: var(--yellowgreen); }
+.bg-forestgreen { background-color: var(--forestgreen); }
+.bg-darkgreen { background-color: var(--darkgreen); }
+
+.border-purple { border-color: var(--purple); }
+.border-mediumvioletred { border-color: var(--mediumvioletred); }
+.border-hotpink { border-color: var(--hotpink); }
+.border-thistle { border-color: var(--thistle); }
+.border-lavenderblush { border-color: var(--lavenderblush); }
+.border-whitesmoke { border-color: var(--whitesmoke); }
+.border-lightgoldenrodyellow { border-color: var(--lightgoldenrodyellow); }
+.border-lightgreen { border-color: var(--lightgreen); }
+.border-yellowgreen { border-color: var(--yellowgreen); }
+.border-forestgreen { border-color: var(--forestgreen); }
+.border-darkgreen { border-color: var(--darkgreen); }
+
+:root {
+  --purple: #8e0152;
+  --mediumvioletred: #c51b7d;
+  --hotpink: #de77ae;
+  --thistle: #f1b6da;
+  --lavenderblush: #fde0ef;
+  --whitesmoke: #f7f7f7;
+  --lightgoldenrodyellow: #e6f5d0;
+  --lightgreen: #b8e186;
+  --yellowgreen: #7fbc41;
+  --forestgreen: #4d9221;
+  --darkgreen: #276419;
+}

@@ -1,0 +1,47 @@
+/*
+
+  PuRd
+
+*/
+
+.ghostwhite { color: var(--ghostwhite); }
+.lavender { color: var(--lavender); }
+.thistle { color: var(--thistle); }
+.plum { color: var(--plum); }
+.hotpink { color: var(--hotpink); }
+.deeppink { color: var(--deeppink); }
+.crimson { color: var(--crimson); }
+.brown { color: var(--brown); }
+.maroon { color: var(--maroon); }
+
+.bg-ghostwhite { background-color: var(--ghostwhite); }
+.bg-lavender { background-color: var(--lavender); }
+.bg-thistle { background-color: var(--thistle); }
+.bg-plum { background-color: var(--plum); }
+.bg-hotpink { background-color: var(--hotpink); }
+.bg-deeppink { background-color: var(--deeppink); }
+.bg-crimson { background-color: var(--crimson); }
+.bg-brown { background-color: var(--brown); }
+.bg-maroon { background-color: var(--maroon); }
+
+.border-ghostwhite { border-color: var(--ghostwhite); }
+.border-lavender { border-color: var(--lavender); }
+.border-thistle { border-color: var(--thistle); }
+.border-plum { border-color: var(--plum); }
+.border-hotpink { border-color: var(--hotpink); }
+.border-deeppink { border-color: var(--deeppink); }
+.border-crimson { border-color: var(--crimson); }
+.border-brown { border-color: var(--brown); }
+.border-maroon { border-color: var(--maroon); }
+
+:root {
+  --ghostwhite: #f7f4f9;
+  --lavender: #e7e1ef;
+  --thistle: #d4b9da;
+  --plum: #c994c7;
+  --hotpink: #df65b0;
+  --deeppink: #e7298a;
+  --crimson: #ce1256;
+  --brown: #980043;
+  --maroon: #67001f;
+}

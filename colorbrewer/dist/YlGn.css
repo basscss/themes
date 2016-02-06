@@ -1,0 +1,47 @@
+/*
+
+  YlGn
+
+*/
+
+.lightyellow { color: var(--lightyellow); }
+.palegoldenrod { color: var(--palegoldenrod); }
+.palegoldenrod-2 { color: var(--palegoldenrod-2); }
+.lightgreen { color: var(--lightgreen); }
+.darkseagreen { color: var(--darkseagreen); }
+.mediumseagreen { color: var(--mediumseagreen); }
+.seagreen { color: var(--seagreen); }
+.darkgreen { color: var(--darkgreen); }
+.darkslategray { color: var(--darkslategray); }
+
+.bg-lightyellow { background-color: var(--lightyellow); }
+.bg-palegoldenrod { background-color: var(--palegoldenrod); }
+.bg-palegoldenrod-2 { background-color: var(--palegoldenrod-2); }
+.bg-lightgreen { background-color: var(--lightgreen); }
+.bg-darkseagreen { background-color: var(--darkseagreen); }
+.bg-mediumseagreen { background-color: var(--mediumseagreen); }
+.bg-seagreen { background-color: var(--seagreen); }
+.bg-darkgreen { background-color: var(--darkgreen); }
+.bg-darkslategray { background-color: var(--darkslategray); }
+
+.border-lightyellow { border-color: var(--lightyellow); }
+.border-palegoldenrod { border-color: var(--palegoldenrod); }
+.border-palegoldenrod-2 { border-color: var(--palegoldenrod-2); }
+.border-lightgreen { border-color: var(--lightgreen); }
+.border-darkseagreen { border-color: var(--darkseagreen); }
+.border-mediumseagreen { border-color: var(--mediumseagreen); }
+.border-seagreen { border-color: var(--seagreen); }
+.border-darkgreen { border-color: var(--darkgreen); }
+.border-darkslategray { border-color: var(--darkslategray); }
+
+:root {
+  --lightyellow: #ffffe5;
+  --palegoldenrod: #f7fcb9;
+  --palegoldenrod-2: #d9f0a3;
+  --lightgreen: #addd8e;
+  --darkseagreen: #78c679;
+  --mediumseagreen: #41ab5d;
+  --seagreen: #238443;
+  --darkgreen: #006837;
+  --darkslategray: #004529;
+}

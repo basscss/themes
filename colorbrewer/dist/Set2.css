@@ -1,0 +1,43 @@
+/*
+
+  Set2
+
+*/
+
+.mediumaquamarine { color: var(--mediumaquamarine); }
+.coral { color: var(--coral); }
+.cornflowerblue { color: var(--cornflowerblue); }
+.plum { color: var(--plum); }
+.yellowgreen { color: var(--yellowgreen); }
+.gold { color: var(--gold); }
+.burlywood { color: var(--burlywood); }
+.darkgray { color: var(--darkgray); }
+
+.bg-mediumaquamarine { background-color: var(--mediumaquamarine); }
+.bg-coral { background-color: var(--coral); }
+.bg-cornflowerblue { background-color: var(--cornflowerblue); }
+.bg-plum { background-color: var(--plum); }
+.bg-yellowgreen { background-color: var(--yellowgreen); }
+.bg-gold { background-color: var(--gold); }
+.bg-burlywood { background-color: var(--burlywood); }
+.bg-darkgray { background-color: var(--darkgray); }
+
+.border-mediumaquamarine { border-color: var(--mediumaquamarine); }
+.border-coral { border-color: var(--coral); }
+.border-cornflowerblue { border-color: var(--cornflowerblue); }
+.border-plum { border-color: var(--plum); }
+.border-yellowgreen { border-color: var(--yellowgreen); }
+.border-gold { border-color: var(--gold); }
+.border-burlywood { border-color: var(--burlywood); }
+.border-darkgray { border-color: var(--darkgray); }
+
+:root {
+  --mediumaquamarine: #66c2a5;
+  --coral: #fc8d62;
+  --cornflowerblue: #8da0cb;
+  --plum: #e78ac3;
+  --yellowgreen: #a6d854;
+  --gold: #ffd92f;
+  --burlywood: #e5c494;
+  --darkgray: #b3b3b3;
+}

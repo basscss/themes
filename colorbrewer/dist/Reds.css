@@ -1,0 +1,47 @@
+/*
+
+  Reds
+
+*/
+
+.seashell { color: var(--seashell); }
+.mistyrose { color: var(--mistyrose); }
+.lightsalmon { color: var(--lightsalmon); }
+.darksalmon { color: var(--darksalmon); }
+.tomato { color: var(--tomato); }
+.red { color: var(--red); }
+.firebrick { color: var(--firebrick); }
+.firebrick-2 { color: var(--firebrick-2); }
+.maroon { color: var(--maroon); }
+
+.bg-seashell { background-color: var(--seashell); }
+.bg-mistyrose { background-color: var(--mistyrose); }
+.bg-lightsalmon { background-color: var(--lightsalmon); }
+.bg-darksalmon { background-color: var(--darksalmon); }
+.bg-tomato { background-color: var(--tomato); }
+.bg-red { background-color: var(--red); }
+.bg-firebrick { background-color: var(--firebrick); }
+.bg-firebrick-2 { background-color: var(--firebrick-2); }
+.bg-maroon { background-color: var(--maroon); }
+
+.border-seashell { border-color: var(--seashell); }
+.border-mistyrose { border-color: var(--mistyrose); }
+.border-lightsalmon { border-color: var(--lightsalmon); }
+.border-darksalmon { border-color: var(--darksalmon); }
+.border-tomato { border-color: var(--tomato); }
+.border-red { border-color: var(--red); }
+.border-firebrick { border-color: var(--firebrick); }
+.border-firebrick-2 { border-color: var(--firebrick-2); }
+.border-maroon { border-color: var(--maroon); }
+
+:root {
+  --seashell: #fff5f0;
+  --mistyrose: #fee0d2;
+  --lightsalmon: #fcbba1;
+  --darksalmon: #fc9272;
+  --tomato: #fb6a4a;
+  --red: #ef3b2c;
+  --firebrick: #cb181d;
+  --firebrick-2: #a50f15;
+  --maroon: #67000d;
+}

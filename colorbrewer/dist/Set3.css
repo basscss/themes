@@ -1,0 +1,59 @@
+/*
+
+  Set3
+
+*/
+
+.mediumturquoise { color: var(--mediumturquoise); }
+.palegoldenrod { color: var(--palegoldenrod); }
+.thistle { color: var(--thistle); }
+.salmon { color: var(--salmon); }
+.lightskyblue { color: var(--lightskyblue); }
+.sandybrown { color: var(--sandybrown); }
+.yellowgreen { color: var(--yellowgreen); }
+.pink { color: var(--pink); }
+.gainsboro { color: var(--gainsboro); }
+.orchid { color: var(--orchid); }
+.honeydew { color: var(--honeydew); }
+.khaki { color: var(--khaki); }
+
+.bg-mediumturquoise { background-color: var(--mediumturquoise); }
+.bg-palegoldenrod { background-color: var(--palegoldenrod); }
+.bg-thistle { background-color: var(--thistle); }
+.bg-salmon { background-color: var(--salmon); }
+.bg-lightskyblue { background-color: var(--lightskyblue); }
+.bg-sandybrown { background-color: var(--sandybrown); }
+.bg-yellowgreen { background-color: var(--yellowgreen); }
+.bg-pink { background-color: var(--pink); }
+.bg-gainsboro { background-color: var(--gainsboro); }
+.bg-orchid { background-color: var(--orchid); }
+.bg-honeydew { background-color: var(--honeydew); }
+.bg-khaki { background-color: var(--khaki); }
+
+.border-mediumturquoise { border-color: var(--mediumturquoise); }
+.border-palegoldenrod { border-color: var(--palegoldenrod); }
+.border-thistle { border-color: var(--thistle); }
+.border-salmon { border-color: var(--salmon); }
+.border-lightskyblue { border-color: var(--lightskyblue); }
+.border-sandybrown { border-color: var(--sandybrown); }
+.border-yellowgreen { border-color: var(--yellowgreen); }
+.border-pink { border-color: var(--pink); }
+.border-gainsboro { border-color: var(--gainsboro); }
+.border-orchid { border-color: var(--orchid); }
+.border-honeydew { border-color: var(--honeydew); }
+.border-khaki { border-color: var(--khaki); }
+
+:root {
+  --mediumturquoise: #8dd3c7;
+  --palegoldenrod: #ffffb3;
+  --thistle: #bebada;
+  --salmon: #fb8072;
+  --lightskyblue: #80b1d3;
+  --sandybrown: #fdb462;
+  --yellowgreen: #b3de69;
+  --pink: #fccde5;
+  --gainsboro: #d9d9d9;
+  --orchid: #bc80bd;
+  --honeydew: #ccebc5;
+  --khaki: #ffed6f;
+}
