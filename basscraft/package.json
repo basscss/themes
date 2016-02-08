@@ -1,57 +1,27 @@
 {
   "name": "basscraft",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Basscss theme",
   "author": "Brent Jackson",
   "license": "MIT",
   "scripts": {
-    "css": "cssnext src/basscraft.css css/basscraft.css",
-    "watch:css": "cssnext src/basscraft.css css/basscraft.css -w",
-    "css:min": "cssnext src/basscraft.css css/basscraft.min.css -c",
-    "watch:css:min": "cssnext src/basscraft.css css/basscraft.min.css -c -w",
-    "docs": "doctor-mark",
-    "watch:docs": "onchange './docs/**/*' -- npm run docs",
-    "serve": "http-server -p 8000",
-    "start": "npm run watch:docs & npmrun css & npm run watch:css & npm run watch:css:min & npm run serve"
+    "docs": "postcss docs/base.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-calc -o docs.css"
   },
-  "dependencies": {
-    "basscss-background-images": "0.0.9",
-    "basscss-base-buttons": "^1.0.11",
-    "basscss-base-forms": "^1.1.2",
-    "basscss-base-reset": "^1.0.0",
-    "basscss-base-tables": "^1.0.0",
-    "basscss-base-typography": "^1.0.1",
-    "basscss-borders": "^1.0.2",
-    "basscss-button-link": "^1.1.0",
-    "basscss-button-outline": "^1.0.1",
-    "basscss-button-sizes": "^1.0.5",
-    "basscss-button-transparent": "^1.0.1",
-    "basscss-color-base": "^1.3.2",
-    "basscss-color-forms": "^2.0.3",
-    "basscss-color-tables": "^1.0.2",
-    "basscss-colors": "^1.0.9",
-    "basscss-defaults": "^2.0.1",
-    "basscss-grid": "^1.0.2",
-    "basscss-input-range": "^1.1.5",
-    "basscss-positions": "^1.0.1",
-    "basscss-progress": "^1.0.5",
-    "basscss-responsive-states": "^1.0.1",
-    "basscss-utility-headings": "0.0.6",
-    "basscss-utility-layout": "^1.0.0",
-    "basscss-utility-typography": "^1.0.1",
-    "basscss-white-space": "^1.0.1",
-    "flex-object": "latest"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "cssnext": "^1.2.3",
-    "doctor-mark": "^1.1.0",
-    "http-server": "^0.8.0",
-    "onchange": "^1.1.0",
-    "watch": "^0.16.0"
+    "basscss": "^8.0.0-beta5",
+    "basscss-responsive-margin": "^1.0.0",
+    "basscss-responsive-padding": "^1.0.0",
+    "postcss": "^5.0.14",
+    "postcss-calc": "^5.2.0",
+    "postcss-cli": "^2.5.0",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.0",
+    "postcss-import": "^8.0.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/basscraft.git"
+    "url": "https://github.com/basscss/themes.git"
   },
   "keywords": [
     "css",
@@ -59,18 +29,10 @@
     "basscss",
     "theme",
     "merriweather",
-    "roboto",
-    "colors"
+    "roboto"
   ],
   "bugs": {
-    "url": "https://github.com/basscss/basscraft/issues"
+    "url": "https://github.com/basscss/themes/issues"
   },
-  "homepage": "https://github.com/basscss/basscraft",
-  "doctor_mark": {
-    "template": "docs/template.html",
-    "stylesheets": [
-      "http://fonts.googleapis.com/css?family=Roboto:400,700|Merriweather:400,700",
-      "css/basscraft.min.css"
-    ]
-  }
+  "homepage": "https://github.com/basscss/themes"
 }

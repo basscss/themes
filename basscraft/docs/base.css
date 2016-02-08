@@ -1,0 +1,12 @@
+
+@import 'basscss';
+@import 'basscss-responsive-margin';
+@import 'basscss-responsive-padding';
+
+/*
+:root {
+  --h1: 3rem;
+  --h2: 2rem;
+  --h3: 1.5rem;
+}
+*/
