@@ -1,0 +1,92 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Helvetica Neue',
+    Helvetica,
+    sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  color: #555;
+  background-color: #fff;
+}
+
+.serif { font-family: Palatino }
+
+code, pre, samp, .monospace {
+  font-family: 'Roboto Mono', Menlo, monospace;
+}
+
+h1 { font-size: 2rem }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.25rem }
+h4 { font-size: 1rem }
+h5 { font-size: .875rem }
+h6 { font-size: .75rem }
+
+.h0 {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+@media screen and (min-width: 48em) {
+  .h0 { font-size: 5rem }
+}
+
+@media screen and (min-width: 80em) {
+  .h0 { font-size: 6vw }
+}
+
+.v60 { min-height: 60vh }
+.v80 { min-height: 80vh }
+.v100 { min-height: 100vh }
+
+.btn {
+  font-family: inherit;
+  font-size: .875rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0;
+  padding: .75rem 1rem;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #555;
+  -webkit-appearance: none;
+}
+
+.btn:hover {
+  box-shadow: inset 0 0 0 999px rgba(0, 0, 0, .375);
+}
+
+.bg-cover { background-size: cover }
+.bg-center { background-position: center }
+
+.bt4 { border-top: 4px solid }
+.br4 { border-right: 4px solid }
+.bb4 { border-bottom: 4px solid }
+.bl4 { border-left: 4px solid }
+
+a { color: #09d }
+
+.white { color: #fff }
+.black { color: #555 }
+.blue  { color: #09d }
+
+.frost { color: rgba(255, 255, 255, .875) }
+.bg-frost { background-color: rgba(255, 255, 255, .875) }
+
+.bg-white { background-color: #fff }
+.bg-black { background-color: #555 }
+.bg-blue  { background-color: #09d }
+
+.vignette { box-shadow: inset 0 0 128px rgba(0, 0, 0, .375) }
+
