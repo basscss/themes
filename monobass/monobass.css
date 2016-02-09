@@ -1,0 +1,77 @@
+
+body {
+  font-family: Roboto, sans-serif;
+  line-height: 1.625;
+  margin: 0;
+  color: #111;
+  background-color: #fff;
+}
+
+code, pre, samp, .mono {
+  font-family: 'Roboto Mono', monospace;
+}
+a {
+  color: #08b;
+}
+/*
+a {
+  text-decoration: none;
+  background-image: linear-gradient(transparent, transparent 93.75%, #0be 93.75%)
+}
+*/
+
+h1, h2, h3,
+h4, h5, h6 {
+  margin-top: 2em;
+  margin-bottom: .5em;
+}
+
+h1, .h1 { font-size: 2rem }
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+  font-size: 1rem;
+}
+
+h5, .h5, h6, .h6 {
+  font-size: .75rem;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: .75rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  padding: .5rem .75rem;
+  color: #fff;
+  background-color: #08b;
+  border: 0;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  box-shadow: inset 0 0 0 999px rgba(0, 0, 128, .25);
+}
+
+.sq1 { width: 3rem; height: 3rem; }
+.sq2 { width: 6rem; height: 6rem; }
+
+.black { color: #111 }
+.white { color: #fff }
+.navy  { color: #047 }
+.blue  { color: #08b }
+.aqua  { color: #0be }
+.red   { color: #f53 }
+
+.bg-black { background-color: #111 }
+.bg-white { background-color: #fff }
+.bg-navy  { background-color: #047 }
+.bg-blue  { background-color: #08b }
+.bg-aqua  { background-color: #0be }
+.bg-red   { background-color: #f53 }
+
+.bg-gray  { background-color: #777c80 }
+  .bg-gray  { background-color: #999ea0 }
+  .bg-gray  { background-color: #d0d6e6 }
+
