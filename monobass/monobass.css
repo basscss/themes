@@ -1,4 +1,6 @@
 
+* { box-sizing: border-box }
+
 body {
   font-family: Roboto, sans-serif;
   line-height: 1.625;
@@ -13,12 +15,13 @@ code, pre, samp, .mono {
 a {
   color: #08b;
 }
-/*
+
+/* Prototype */
 a {
   text-decoration: none;
   background-image: linear-gradient(transparent, transparent 93.75%, #0be 93.75%)
 }
-*/
+.btn { background-image: none }
 
 h1, h2, h3,
 h4, h5, h6 {
