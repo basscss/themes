@@ -88,5 +88,30 @@ a { color: #09d }
 .bg-black { background-color: #555 }
 .bg-blue  { background-color: #09d }
 
+.dark-blue     { color:            #059 }
+.bg-dark-blue  { background-color: #059 }
+
+/* Magenta test */
+.magenta { color: #f36 }
+.bg-magenta { background-color: #f36 }
+.dark-magenta    { color:            #c03 }
+.bg-dark-magenta { background-color: #c03 }
+
+/* Green test */
+.green { color: #0ca }
+.bg-green { background-color: #0ca }
+.dark-green { color: #097 }
+.bg-dark-green { background-color: #097 }
+  .dark-green { color: #075 }
+  .bg-dark-green { background-color: #075 }
+
+/* Orange test */
+/*
+  .orange    { color:            #d70 }
+  .bg-orange { background-color: #d70 }
+  .dark-orange    { color:            #b40 }
+  .bg-dark-orange { background-color: #b40 }
+*/
+
 .vignette { box-shadow: inset 0 0 128px rgba(0, 0, 0, .375) }
 
