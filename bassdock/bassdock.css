@@ -1,7 +1,5 @@
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box }
 
 body {
   font-family:
@@ -17,6 +15,8 @@ body {
   color: #555;
   background-color: #fff;
 }
+
+a { color: #09d }
 
 .serif { font-family: Palatino }
 
@@ -67,51 +67,26 @@ h6 { font-size: .75rem }
   box-shadow: inset 0 0 0 999px rgba(0, 0, 0, .375);
 }
 
-.bg-cover { background-size: cover }
-.bg-center { background-position: center }
-
-.bt4 { border-top: 4px solid }
-.br4 { border-right: 4px solid }
-.bb4 { border-bottom: 4px solid }
-.bl4 { border-left: 4px solid }
-
-a { color: #09d }
-
 .white { color: #fff }
 .black { color: #555 }
 .blue  { color: #09d }
-
+.dark-blue { color: #059 }
 .frost { color: rgba(255, 255, 255, .875) }
-.bg-frost { background-color: rgba(255, 255, 255, .875) }
 
 .bg-white { background-color: #fff }
 .bg-black { background-color: #555 }
 .bg-blue  { background-color: #09d }
+.bg-dark-blue { background-color: #059 }
+.bg-frost { background-color: rgba(255, 255, 255, .875) }
 
-.dark-blue     { color:            #059 }
-.bg-dark-blue  { background-color: #059 }
+.bg-cover  { background-size: cover }
+.bg-center { background-position: center }
 
-/* Magenta test */
-.magenta { color: #f36 }
-.bg-magenta { background-color: #f36 }
-.dark-magenta    { color:            #c03 }
-.bg-dark-magenta { background-color: #c03 }
-
-/* Green test */
-.green { color: #0ca }
-.bg-green { background-color: #0ca }
-.dark-green { color: #097 }
-.bg-dark-green { background-color: #097 }
-  .dark-green { color: #075 }
-  .bg-dark-green { background-color: #075 }
-
-/* Orange test */
-/*
-  .orange    { color:            #d70 }
-  .bg-orange { background-color: #d70 }
-  .dark-orange    { color:            #b40 }
-  .bg-dark-orange { background-color: #b40 }
-*/
+.bd { border: 4px solid }
+.bt { border-top: 4px solid }
+.br { border-right: 4px solid }
+.bb { border-bottom: 4px solid }
+.bl { border-left: 4px solid }
 
 .vignette { box-shadow: inset 0 0 128px rgba(0, 0, 0, .375) }
 

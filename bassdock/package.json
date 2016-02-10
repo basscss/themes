@@ -1,16 +1,10 @@
 {
   "name": "bassdock",
-  "version": "3.0.0-beta1",
-  "description": "Theme for Basscss documentation",
+  "version": "3.0.0",
+  "description": "Theme for Basscss",
   "author": "Brent Jackson",
   "license": "MIT",
-  "style": "src/bassdock.css",
-  "scripts": {
-  },
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "style": "bassdock.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/basscss/themes.git"
