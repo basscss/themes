@@ -20,7 +20,7 @@ a { color: #09d }
 
 .serif { font-family: Palatino }
 
-code, pre, samp, .monospace {
+code, pre, samp, .mono {
   font-family: 'Roboto Mono', Menlo, monospace;
 }
 
