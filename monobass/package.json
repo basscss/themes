@@ -1,12 +1,12 @@
 {
   "name": "monobass",
-  "version": "2.0.0-beta1",
+  "version": "2.0.0",
   "description": "Hyperminimal theme for Basscss",
   "author": "Brent Jackson",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/monobass.git"
+    "url": "https://github.com/basscss/themes.git"
   },
   "bugs": {
     "url": "https://github.com/basscss/themes/issues"

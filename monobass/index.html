@@ -2,67 +2,78 @@
 <meta charset="utf-8">
 <title>monobass</title>
 
-<link href="https://npmcdn.com/basscss-addons@1.0.0-beta1/modules/forms/index.css" rel="stylesheet">
-<link href="https://npmcdn.com/basscss@8.0.0-beta5/css/basscss.min.css" rel="stylesheet">
 <link href="monobass.css" rel="stylesheet">
+<link href="https://npmcdn.com/basscss@8.0.0-beta5/css/basscss.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,700" rel="stylesheet">
+<style>
+.sq1 { width: 3rem; height: 3rem; }
+.sq2 { width: 6rem; height: 6rem; }
+</style>
 
 <header class="max-width-4 mx-auto px3 py4">
   <h1 class="mb0">monobass</h1>
   <p class="mt0">Hyperminimal theme for Basscss</p>
 </header>
 
-<div class="max-width-4 mx-auto px3 py2 mx-auto" style="font-size: 6rem;">
-  ⬢
-</div>
+<div class="max-width-4 mx-auto px3 py1 mx-auto" style="font-size: 3rem">⬢</div>
 
 <section class="max-width-4 mx-auto px3 py4">
   <h2 class="h6 caps">Type Scale</h2>
-  <h1>h1 Hamburger</h1>
-  <h1 class="h4">h4 Hamburger</h1>
-  <h1 class="h6">h6 Hamburger</h1>
-  <h1 class="caps">h1 Hamburger</h1>
-  <h1 class="h4 caps">h4 Hamburger</h1>
-  <h1 class="h6 caps">h6 Hamburger</h1>
+  <div class="sm-flex">
+    <div class="sm-col-6">
+      <h1>h1 Hamburger</h1>
+      <h1 class="h4">h4 Hamburger</h1>
+      <h1 class="h6">h6 Hamburger</h1>
+    </div>
+    <div class="sm-col-6">
+      <h1 class="caps">Hamburger</h1>
+      <h1 class="h4 caps">Hamburger</h1>
+      <h1 class="h6 caps">Hamburger</h1>
+    </div>
+  </div>
   <div class="max-width-3">
     <p>
-      A monospaced font, also called a fixed-pitch, fixed-width, or non-proportional font, is a font whose letters and characters each occupy the same amount of horizontal space.[1] This contrasts with variable-width fonts, where the letters and spacings have different widths. For example, the two high-use letters "I" and "E" do not need the same footprint. Both letters differ in center-to-next-letter edge (and center-to-center) spacing distance needs (margins) in variable width fonts. The variable that changes is offset from what would otherwise be monospaced centering. In a modern proportional font, every dimension can be scaled and changed, but such sizing mathematically must still maintain monospacing or variable spacing.
+      A monospaced font, also called a fixed-pitch, fixed-width, or non-proportional font, is a font whose letters and characters each occupy the same amount of horizontal space. This contrasts with variable-width fonts, where the letters and spacings have different widths. For example, the two high-use letters "I" and "E" do not need the same footprint. Both letters differ in center-to-next-letter edge (and center-to-center) spacing distance needs (margins) in variable width fonts. The variable that changes is offset from what would otherwise be monospaced centering. In a modern proportional font, every dimension can be scaled and changed, but such sizing mathematically must still maintain monospacing or variable spacing.
     </p>
     <p>
       Note that this article generally assumes Western (Latin-based, Cyrillic, or Greek) writing systems. East Asian rules of typography, for example, require CJK fonts to be always monospaced at least as far as the main characters for writing words (i.e. not punctuation) are concerned. Other scripts vary in their use of monospaced fonts.
     </p>
     <p>
-      The first monospaced Western typefaces were designed for typewriters, which could only move the same distance forward with each letter typed—simply because all striker arms on a typewriter are physically the same width or won't align and pass through the positioning gap. This also later meant that monospaced fonts need not be hand-typeset (since Gutenberg, using physical blocks) and electric motorized cam driven auto typesetters could be manufactured. Monospace fonts being the same size and spacing, unlike variable width fonts and were and are arguably, easier to deal with since everything is uniformly spaced.
+      The first monospaced Western typefaces were designed for
+      <a href="https://en.wikipedia.org/wiki/Typewriter" target="_blank">typewriters</a>,
+      which could only move the same distance forward with each letter typed—simply because all striker arms on a typewriter are physically the same width or won't align and pass through the positioning gap. This also later meant that monospaced fonts need not be hand-typeset (since Gutenberg, using physical blocks) and electric motorized cam driven auto typesetters could be manufactured. Monospace fonts being the same size and spacing, unlike variable width fonts and were and are arguably, easier to deal with since everything is uniformly spaced.
     </p>
+    <cite class="h6">
+      Source:
+      <a href="https://en.wikipedia.org/wiki/Monospaced_font"
+        target="_blank">
+        Monospaced Font Wikipedia
+      </a>
+    </cite>
   </div>
 </section>
 
 <section class="max-width-4 mx-auto px3 py4">
   <h2 class="h6 caps">Color</h2>
-  <div class="flex flex-wrap">
+  <div class="flex flex-wrap items-center">
     <div class="sq2 bg-black"></div>
     <div class="sq2 bg-navy"></div>
     <div class="sq2 bg-blue"></div>
     <div class="sq2 bg-aqua"></div>
-    <div class="sq1 bg-red"></div>
+    <div class="sq1 ml-auto bg-red"></div>
   </div>
 </section>
 
 <section class="max-width-4 mx-auto px3 py4">
   <h2 class="h6 caps">Button</h2>
-  <a href="" class="btn bg-black">btn</a>
-  <a href="" class="btn bg-navy">btn</a>
-  <a href="" class="btn">btn</a>
-  <a href="" class="btn bg-aqua">btn</a>
-  <a href="" class="btn bg-red">btn</a>
+  <div class="flex flex-wrap">
+    <a href="" class="btn mr1 bg-black">btn</a>
+    <a href="" class="btn mr1 bg-navy">btn</a>
+    <a href="" class="btn mr1">btn</a>
+    <a href="" class="btn mr1 bg-aqua">btn</a>
+    <a href="" class="btn ml-auto bg-red">btn</a>
+  </div>
 </section>
-
-<section class="max-width-4 mx-auto px3 py4">
-  <h2 class="h6 caps">Form</h2>
-  <label class="label">Email Address</label>
-  <input type="text" class="input" />
-</section>
-
 
 <footer class="flex items-baseline max-width-4 mx-auto px3 py4">
   <a href="" class="btn caps mr-auto bg-black">GitHub</a>
