@@ -1,0 +1,58 @@
+
+body {
+  font-family:
+    Palatino,
+    Georgia,
+    serif;
+  line-height: 1.5;
+  margin: 0;
+  color: #111;
+  background-color: #fff;
+}
+
+a { color: #e40 }
+
+p {
+  font-size: 1.125rem;
+}
+
+.sans { font-family: Roboto, sans-serif }
+.mono { font-family: 'Roboto Mono', monospace }
+
+.h0 {
+  font-size: 3rem;
+  line-height: 1;
+}
+@media screen and (min-width: 37.5em) {
+  .h0 { font-size: 8vw }
+}
+
+.btn {
+  font-family: Roboto, sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  padding: .5rem .625rem;
+  margin: 0;
+  color: #fff;
+  background-color: #111;
+  border: 0;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #e40;
+}
+
+.black { color: #111 }
+.white { color: #fff }
+.gray  { color: #777 }
+.red   { color: #e40 }
+
+.bg-black { background-color: #111 }
+.bg-white { background-color: #fff }
+.bg-gray  { background-color: #777 }
+.bg-red   { background-color: #e40 }
+
