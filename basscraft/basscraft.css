@@ -1,0 +1,75 @@
+
+* { box-sizing: border-box }
+
+body {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  color: #555;
+  background-color: #fff;
+}
+
+.serif {
+  font-family: Merriweather, serif;
+}
+
+a {
+  color: inherit;
+}
+
+h1 { font-size: 2rem }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.25rem }
+h4 { font-size: 1rem }
+h5 { font-size: .875rem }
+h6 { font-size: .75rem }
+
+.h0 { font-size: 2rem }
+
+@media screen and (min-width: 50em) {
+  .h0 { font-size: 4vw }
+}
+
+hr {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: 0;
+  border-bottom: 3px solid;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0;
+  padding: .25em 1.25em;
+  border: 2px solid;
+  border-radius: 3px;
+  color: inherit;
+  background-color: transparent;
+}
+
+.btn:hover {
+  box-shadow: inset 0 0 0 1px;
+}
+
+.black { color: #555 }
+.white { color: #fff }
+.red   { color: #f50 }
+.blue  { color: #08d; color: #09b }
+.green { color: #0a4 }
+.purple { color: #a09 }
+
+.bg-black { background-color: #555 }
+.bg-white { background-color: #fff }
+.bg-red   { background-color: #f50 }
+.bg-blue  { background-color: #08d }
+.bg-green { background-color: #0a5 }
+
+.bd { border: 3px solid }
+.bt { border-top:    3px solid }
+.br { border-right:  3px solid }
+.bb { border-bottom: 3px solid }
+.bl { border-left:   3px solid }
+
