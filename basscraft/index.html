@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Basscraft</title>
-<meta name="author" content="Brent Jackson">
-<meta name="description" content="Basscss theme">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="css,oocss,basscss,theme,merriweather,roboto,colors">
+
+<link rel="stylesheet" href="basscraft.css">
+<link href="https://npmcdn.com/basscss@8.0.0-beta5/css/basscss.min.css" rel="stylesheet">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,700|Merriweather:400,700">
 
 <style>
-* { box-sizing: border-box }
+/* Limited responsive margin/padding */
+@media screen and (min-width: 40em) {
+  .sm-m3 { margin: 2rem }
+  .sm-p3 { padding: 2rem }
+  .sm-px3 { padding-left: 2rem; padding-right: 2rem }
+}
+@media screen and (min-width: 52em) {
+  .md-m4 { margin: 4rem }
+  .md-p4 { padding: 4rem }
+  .md-px4 { padding-left: 4rem; padding-right: 4rem }
+}
 </style>
 
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,700|Merriweather:400,700">
-<link rel="stylesheet" href="basscraft.css">
-<link rel="stylesheet" href="docs.css">
-
-
-<header class="m2 p2 sm-m3 sm-p3 md-m4 md-p4 border border-thick">
+<header class="m2 p2 sm-m3 sm-p3 md-m4 md-p4 bd red">
   <h1 class="sans h4 caps m0">Basscraft</h1>
-  <p class="serif h1 h1v bold mt4 mb0">
+  <p class="serif h0 bold mt4 mb0">
     A Basscss theme
     <br class="xs-hide">
     with bold typography,
@@ -26,59 +32,136 @@
   </p>
 </header>
 
-<section id="typography" class="max-width-4 px2 sm-px3 md-px4 py4">
-  <h2 class="sans h4 caps m0">
-    <a href="#typography">Typography</a>
-  </h2>
+<section id="red" class="max-width-4 px2 sm-px3 md-px4 py4 red">
+  <h2 class="sans h4 caps m0">Red</h2>
   <hr class="mt1">
-  <div class="sm-flex mxn2">
-    <div class="sm-col-5 px2">
-      <h1 class="mt0">Hamburger 1</h1>
-      <h2>Hamburger 2</h2>
-      <h3>Hamburger 3</h3>
-      <h4>Hamburger 4</h4>
-      <h5>Hamburger 5</h5>
-      <h6>Hamburger 6</h6>
+  <section>
+    <h3 class="sans h4 caps">Typography</h3>
+    <div class="sm-flex mxn2">
+      <div class="sm-col-5 px2">
+        <h1 class="mt0">Hamburger 1</h1>
+        <h2>Hamburger 2</h2>
+        <h3>Hamburger 3</h3>
+        <h4>Hamburger 4</h4>
+        <h5>Hamburger 5</h5>
+        <h6>Hamburger 6</h6>
+      </div>
+      <div class="sm-col-7 px2">
+        <p class="h3">Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin. Bacon t-bone hamburger turkey capicola rump short loin. Drumstick pork fatback pork chop doner pork belly prosciutto pastrami sausage. Ground round prosciutto shank pastrami corned beef venison tail. Turkey short loin tenderloin jerky porchetta pork loin.</p>
+        <p>Landjaeger jerky ham sausage corned beef kevin drumstick ham hock shank meatball. Jowl brisket meatloaf capicola corned beef tri-tip drumstick strip steak t-bone flank. Biltong landjaeger pastrami cow tenderloin pork chop chuck turkey leberkas ribeye capicola hamburger jowl brisket. Bresaola boudin leberkas capicola salami, ribeye filet mignon tail kevin.</p>
+      </div>
     </div>
-    <div class="sm-col-7 px2">
-      <p class="h3">Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin. Bacon t-bone hamburger turkey capicola rump short loin. Drumstick pork fatback pork chop doner pork belly prosciutto pastrami sausage. Ground round prosciutto shank pastrami corned beef venison tail. Turkey short loin tenderloin jerky porchetta pork loin.</p>
-      <p>Landjaeger jerky ham sausage corned beef kevin drumstick ham hock shank meatball. Jowl brisket meatloaf capicola corned beef tri-tip drumstick strip steak t-bone flank. Biltong landjaeger pastrami cow tenderloin pork chop chuck turkey leberkas ribeye capicola hamburger jowl brisket. Bresaola boudin leberkas capicola salami, ribeye filet mignon tail kevin.</p>
+  </section>
+  <section>
+    <h3 class="sans h4 caps">Buttons</h3>
+    <div class="sm-flex items-center mxn2">
+      <a href="#!" class="h1 btn m2">h1 btn</a>
+      <a href="#!" class="h2 btn m2">h2 btn</a>
+      <a href="#!" class="h3 btn m2">h3 btn</a>
+      <a href="#!" class="btn m2">btn</a>
     </div>
-  </div>
+  </section>
 </section>
 
-<section id="btn" class="max-width-4 px2 sm-px3 md-px4 py4">
-  <h2 class="sans h4 caps m0">
-    <a href="#btn">Buttons</a>
-  </h2>
+<section id="green" class="max-width-4 px2 sm-px3 md-px4 py4 green">
+  <h2 class="sans h4 caps m0">Green</h2>
   <hr class="mt1">
-  <div class="sm-flex items-center mxn2">
-    <a href="#!" class="h1 btn m2">h1 btn</a>
-    <a href="#!" class="h2 btn m2">h2 btn</a>
-    <a href="#!" class="h3 btn m2">h3 btn</a>
-    <a href="#!" class="btn m2">btn</a>
-  </div>
+  <section>
+    <h3 class="sans h4 caps">Typography</h3>
+    <div class="sm-flex mxn2">
+      <div class="sm-col-5 px2">
+        <h1 class="mt0">Hamburger 1</h1>
+        <h2>Hamburger 2</h2>
+        <h3>Hamburger 3</h3>
+        <h4>Hamburger 4</h4>
+        <h5>Hamburger 5</h5>
+        <h6>Hamburger 6</h6>
+      </div>
+      <div class="sm-col-7 px2">
+        <p class="h3">Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin. Bacon t-bone hamburger turkey capicola rump short loin. Drumstick pork fatback pork chop doner pork belly prosciutto pastrami sausage. Ground round prosciutto shank pastrami corned beef venison tail. Turkey short loin tenderloin jerky porchetta pork loin.</p>
+        <p>Landjaeger jerky ham sausage corned beef kevin drumstick ham hock shank meatball. Jowl brisket meatloaf capicola corned beef tri-tip drumstick strip steak t-bone flank. Biltong landjaeger pastrami cow tenderloin pork chop chuck turkey leberkas ribeye capicola hamburger jowl brisket. Bresaola boudin leberkas capicola salami, ribeye filet mignon tail kevin.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3 class="sans h4 caps">Buttons</h3>
+    <div class="sm-flex items-center mxn2">
+      <a href="#!" class="h1 btn m2">h1 btn</a>
+      <a href="#!" class="h2 btn m2">h2 btn</a>
+      <a href="#!" class="h3 btn m2">h3 btn</a>
+      <a href="#!" class="btn m2">btn</a>
+    </div>
+  </section>
 </section>
 
-<!--
-<section id="colors" class="max-width-4 px2 sm-px3 md-px4 py4">
-  <h2 class="sans h4 caps m0">
-    <a href="#colors">Colors</a>
-  </h2>
+<section id="blue" class="max-width-4 px2 sm-px3 md-px4 py4 blue">
+  <h2 class="sans h4 caps m0">Blue</h2>
   <hr class="mt1">
-  <div class="mxn2">
-    <div class="bold inline-block p3 m2 white bg-red">red</div>
-    <div class="bold inline-block p3 m2 white bg-blue">blue</div>
-  </div>
+  <section>
+    <h3 class="sans h4 caps">Typography</h3>
+    <div class="sm-flex mxn2">
+      <div class="sm-col-5 px2">
+        <h1 class="mt0">Hamburger 1</h1>
+        <h2>Hamburger 2</h2>
+        <h3>Hamburger 3</h3>
+        <h4>Hamburger 4</h4>
+        <h5>Hamburger 5</h5>
+        <h6>Hamburger 6</h6>
+      </div>
+      <div class="sm-col-7 px2">
+        <p class="h3">Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin. Bacon t-bone hamburger turkey capicola rump short loin. Drumstick pork fatback pork chop doner pork belly prosciutto pastrami sausage. Ground round prosciutto shank pastrami corned beef venison tail. Turkey short loin tenderloin jerky porchetta pork loin.</p>
+        <p>Landjaeger jerky ham sausage corned beef kevin drumstick ham hock shank meatball. Jowl brisket meatloaf capicola corned beef tri-tip drumstick strip steak t-bone flank. Biltong landjaeger pastrami cow tenderloin pork chop chuck turkey leberkas ribeye capicola hamburger jowl brisket. Bresaola boudin leberkas capicola salami, ribeye filet mignon tail kevin.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3 class="sans h4 caps">Buttons</h3>
+    <div class="sm-flex items-center mxn2">
+      <a href="#!" class="h1 btn m2">h1 btn</a>
+      <a href="#!" class="h2 btn m2">h2 btn</a>
+      <a href="#!" class="h3 btn m2">h3 btn</a>
+      <a href="#!" class="btn m2">btn</a>
+    </div>
+  </section>
 </section>
--->
 
-<footer class="h6 bold caps m2 md-m4 py2 border-top border-thick">
-  <div class="flex items-baseline flex-wrap">
-    <a href="//jxnblk.com/basscraft" class="">Basscraft</a>
-    <div class="px1">v1.0.0</div>
+<section id="purple" class="max-width-4 px2 sm-px3 md-px4 py4 purple">
+  <h2 class="sans h4 caps m0">Purple</h2>
+  <hr class="mt1">
+  <section>
+    <h3 class="sans h4 caps">Typography</h3>
+    <div class="sm-flex mxn2">
+      <div class="sm-col-5 px2">
+        <h1 class="mt0">Hamburger 1</h1>
+        <h2>Hamburger 2</h2>
+        <h3>Hamburger 3</h3>
+        <h4>Hamburger 4</h4>
+        <h5>Hamburger 5</h5>
+        <h6>Hamburger 6</h6>
+      </div>
+      <div class="sm-col-7 px2">
+        <p class="h3">Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin. Bacon t-bone hamburger turkey capicola rump short loin. Drumstick pork fatback pork chop doner pork belly prosciutto pastrami sausage. Ground round prosciutto shank pastrami corned beef venison tail. Turkey short loin tenderloin jerky porchetta pork loin.</p>
+        <p>Landjaeger jerky ham sausage corned beef kevin drumstick ham hock shank meatball. Jowl brisket meatloaf capicola corned beef tri-tip drumstick strip steak t-bone flank. Biltong landjaeger pastrami cow tenderloin pork chop chuck turkey leberkas ribeye capicola hamburger jowl brisket. Bresaola boudin leberkas capicola salami, ribeye filet mignon tail kevin.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3 class="sans h4 caps">Buttons</h3>
+    <div class="sm-flex items-center mxn2">
+      <a href="#!" class="h1 btn m2">h1 btn</a>
+      <a href="#!" class="h2 btn m2">h2 btn</a>
+      <a href="#!" class="h3 btn m2">h3 btn</a>
+      <a href="#!" class="btn m2">btn</a>
+    </div>
+  </section>
+</section>
+
+<footer class="h6 bold caps m2 md-m4 py2 bt purple">
+  <div class="flex items-baseline flex-wrap mxn1">
+    <a href="//jxnblk.com/basscraft" class="p1">Basscraft</a>
+    <div class="p1">v1.0.0</div>
     <div class="flex-auto"></div>
-    <div class="px1">
+    <div class="p1">
       Made by
       <a href="//jxnblk.com">Jxnblk</a>
     </div>

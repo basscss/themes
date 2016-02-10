@@ -4,21 +4,6 @@
   "description": "Basscss theme",
   "author": "Brent Jackson",
   "license": "MIT",
-  "scripts": {
-    "docs": "postcss docs/base.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-calc -o docs.css"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "basscss": "^8.0.0-beta5",
-    "basscss-responsive-margin": "^1.0.0",
-    "basscss-responsive-padding": "^1.0.0",
-    "postcss": "^5.0.14",
-    "postcss-calc": "^5.2.0",
-    "postcss-cli": "^2.5.0",
-    "postcss-custom-media": "^5.0.1",
-    "postcss-custom-properties": "^5.0.0",
-    "postcss-import": "^8.0.2"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/basscss/themes.git"

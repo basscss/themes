@@ -1,10 +1,12 @@
 
+* { box-sizing: border-box }
+
 body {
   font-family: Roboto, sans-serif;
   line-height: 1.5;
   margin: 0;
-
-  color: #f50;
+  color: #555;
+  background-color: #fff;
 }
 
 .serif {
@@ -22,32 +24,17 @@ h4 { font-size: 1rem }
 h5 { font-size: .875rem }
 h6 { font-size: .75rem }
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-  text-decoration: none;
-}
+.h0 { font-size: 2rem }
 
-h1 a:hover,
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
-  text-decoration: underline;
+@media screen and (min-width: 50em) {
+  .h0 { font-size: 4vw }
 }
-
 
 hr {
   margin-top: 3em;
   margin-bottom: 3em;
   border: 0;
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  border-bottom-color: inherit;
+  border-bottom: 3px solid;
 }
 
 .btn {
@@ -61,31 +48,28 @@ hr {
   border-radius: 3px;
   color: inherit;
   background-color: transparent;
-  -webkit-appearance: none;
 }
 
 .btn:hover {
   box-shadow: inset 0 0 0 1px;
 }
 
-.black { color: #333 }
+.black { color: #555 }
 .white { color: #fff }
-.red { color: #f50 }
-.blue { color: #08d }
+.red   { color: #f50 }
+.blue  { color: #08d; color: #09b }
+.green { color: #0a4 }
+.purple { color: #a09 }
 
-.bg-black { background-color: #333 }
+.bg-black { background-color: #555 }
 .bg-white { background-color: #fff }
-.bg-red { background-color: #f50 }
-.bg-blue { background-color: #08d }
+.bg-red   { background-color: #f50 }
+.bg-blue  { background-color: #08d }
+.bg-green { background-color: #0a5 }
 
-
-/* Utils */
-
-@media screen and (min-width: 50em) {
-  .h1v { font-size: 4vw !important }
-}
-
-.border-thick {
-  border-width: 3px !important;
-}
+.bd { border: 3px solid }
+.bt { border-top:    3px solid }
+.br { border-right:  3px solid }
+.bb { border-bottom: 3px solid }
+.bl { border-left:   3px solid }
 
