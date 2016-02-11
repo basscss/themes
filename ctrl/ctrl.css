@@ -1,0 +1,93 @@
+
+body {
+  font-size: .875rem;
+  line-height: 1.375;
+}
+
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+.v100 { min-height: 100vh }
+
+.x1 { min-height: 3rem }
+.x2 { min-height: 6rem }
+.x3 { min-height: 9rem }
+.x4 { min-height: 12rem }
+
+.nav-item {
+  font-size: .875rem;
+  font-weight: bold;
+  line-height: 1rem;
+  text-decoration: none;
+  display: block;
+  padding: 1rem 1rem;
+  color: inherit;
+  border-radius: 2px;
+}
+
+.nav-item:hover {
+  color: #0cf;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.nav-item.is-active {
+  color: #134;
+  background-color: #0cf;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: .5rem;
+  margin: 0;
+  color: #134;
+  background-color: #abc;
+  border: 0;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  box-shadow: inset 0 0 0 999px rgba(0, 32, 64, .125);
+}
+
+.btn-primary {
+  background-color: #0cf;
+}
+
+.svg-chart {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  fill: currentcolor;
+  overflow: visible;
+}
+
+.svg-stroke {
+  fill: none;
+  stroke: currentcolor;
+  vector-effect: non-scaling-stroke;
+}
+
+.black { color: #123 }
+.white { color: #fff }
+.blue  { color: #0cf }
+.gray  { color: #abc }
+
+.bg-black { background-color: #123 }
+.bg-white { background-color: #fff }
+.bg-blue  { background-color: #0cf }
+
+.bg-darken-1 { background-color: rgba(0, 0, 0, .0625) }
+.bg-darken-2 { background-color: rgba(0, 0, 0, .125) }
+.bg-darken-3 { background-color: rgba(0, 0, 0, .25) }
+.bg-darken-4 { background-color: rgba(0, 0, 0, .375) }
+
+.muted { opacity: .25 }
+

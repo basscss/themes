@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ctrl</title>
+  <link href='https://npmcdn.com/basscss-basic@1.0.0/index.css' rel='stylesheet'>
+  <link href="ctrl.css" rel="stylesheet">
+  <link href="https://npmcdn.com/basscss@8.0.0-beta5/css/basscss.min.css" rel="stylesheet">
+</head>
+
+<body class="flex v100 items-stretch white bg-black">
+  <nav class="p2 overflow-scroll bg-darken-4"
+       style="width:256px">
+    <h1 class="m0">Ctrl</h1>
+    <p class="mt0 gray">Dashboard theme</p>
+    <a href="#!" class="nav-item is-active">Overview</a>
+    <a href="#!" class="nav-item">Inventory</a>
+    <a href="#!" class="nav-item">Transactions</a>
+    <a href="#!" class="nav-item">Reports</a>
+    <hr />
+    <a href="#!" class="nav-item">Emails</a>
+    <a href="#!" class="nav-item">Customers</a>
+    <a href="#!" class="nav-item">Products</a>
+  </nav>
+  <div class="flex-auto flex flex-column">
+    <header class="flex items-center x1 bg-darken-2">
+      <h1 class="h3 m0 px2">Overview</h1>
+      <a href="#!" class="nav-item ml-auto">Sign Out</a>
+    </header>
+    <main class="flex-auto p3">
+      <header class="flex items-center py1 border-bottom">
+        <h2 class="h1 m0">Q1 2016</h2>
+        <button class="btn ml-auto rounded-left">Edit</button>
+        <button class="btn btn-primary rounded-right">Add Widget</button>
+      </header>
+      <section class="flex mxn2 mb3">
+        <div class="col-8 px2">
+          <h3>Good Things</h3>
+          <svg viewBox="0 0 128 64" class="svg-chart blue">
+            <path class="svg-stroke muted"
+                  d="M0 0 L0 64 L128 64" />
+            <path d="M0 48 L16 40 L32 28 L48 40 L64 32 L80 36 L96 24 L112 4 L128 64 H0 z" />
+          </svg>
+        </div>
+        <div class="col-4 px2">
+          <h3>Bad Things</h3>
+          <svg viewBox="0 0 64 64" class="svg-chart blue">
+            <circle cx="32" cy="32" r="24" />
+          </svg>
+        </div>
+      </section>
+      <section class="flex justify-between mxn2 mb3">
+        <div class="px2">
+          <div class="h1 bold">1,024</div>
+          <div>Bits</div>
+        </div>
+        <div class="px2">
+          <div class="h1 bold">2,048</div>
+          <div>Watts</div>
+        </div>
+        <div class="px2">
+          <div class="h1 bold">16,384</div>
+          <div>Customers</div>
+        </div>
+        <div class="px2">
+          <div class="h1 bold">4,096</div>
+          <div>Sales</div>
+        </div>
+      </section>
+      <hr />
+    </main>
+  </div>
+</body>
+
+</html>
