@@ -1,0 +1,144 @@
+/* Styles for http://basscss.com/themes page */
+
+@media screen and (min-width: 64em) {
+  .lg-px4 { padding-left: 4rem; padding-right: 4rem }
+}
+
+/* Grid extension */
+@media screen and (min-width: 96em) {
+  .xl-col-3 { width: 25% }
+}
+
+/* Color */
+.color-inherit { color: inherit }
+
+.btn {
+  font-family: inherit;
+  font-size: .875rem;
+  font-weight: 700;
+  text-decoration: none;
+  height: 2.5em;
+  margin: 0;
+  padding: .5em .75em;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #07c;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: inset 0 0 0 999px rgba(0, 0, 0, .25);
+}
+
+/* iframe card */
+.ifx {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform .125s ease-out;
+}
+
+/* 4:3 aspect ratio */
+.ifx::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+}
+
+/* Shadow */
+.ifx::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow:
+    inset 0 0 0 1px #ccc,
+    0 2px 16px rgba(0, 0, 0, .125);
+  border-radius: 6px;
+  opacity: .25;
+  transition: opacity .125s ease-out;
+}
+
+.ifx:focus,
+.ifx:hover {
+  outline: none;
+  transform: scale(1.03125);
+  z-index: 1;
+}
+
+.ifx:focus::before,
+.ifx:hover::before {
+  opacity: 1;
+}
+
+.ifx-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.ifx iframe {
+  display: block;
+  width: 300%;
+  height: 300%;
+  transform-origin: 0 0;
+  transform: scale(.333);
+}
+
+/* Carbon Ad */
+#carbonads {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.25;
+  text-align: left;
+}
+
+#carbonads a,
+#carbonads a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+#carbonads span { display: block }
+
+#carbonads > span::before,
+#carbonads > span::after {
+  content: '';
+  display: table;
+}
+
+#carbonads > span::after {
+  clear: both;
+}
+
+.carbon-img {
+  float: left;
+  margin-right: .5em;
+}
+
+.carbon-img > img { display: block }
+.carbon-text { overflow: hidden }
+
+.carbon-poweredby {
+  float: left;
+  margin-top: .25em;
+  opacity: 0.5;
+}
+
+@media (min-width: 40em) {
+  #carbonads {
+    max-width: 320px;
+  }
+}
+
