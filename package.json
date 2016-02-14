@@ -3,5 +3,29 @@
   "version": "2.0.0",
   "description": "Basscss themes",
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^0.14.7",
+    "static-react": "^3.0.0"
+  },
+  "scripts": {
+    "start": "static-react src/Root.js > index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basscss/themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/basscss/themes/issues"
+  },
+  "homepage": "https://github.com/basscss/themes#readme",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ],
+    "ignore": "false"
+  }
 }
