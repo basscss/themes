@@ -5,7 +5,7 @@ http://basscss.com/themes
 
 # Themes
 
-- [Skull](basscss/skull)
+- [Skull](//github.com/basscss/skull)
 - [Basscraft](basscraft)
 - [Bassdock](bassdock)
 - [monobass](monobass)
