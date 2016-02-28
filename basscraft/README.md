@@ -2,7 +2,7 @@
 
 Theme for Basscss
 
-http://basscss.com/themes/bassdock
+http://basscss.com/themes/basscraft
 
 # Usage
 
